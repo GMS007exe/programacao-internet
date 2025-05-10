@@ -1,0 +1,56 @@
+/* Definindo estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00065c;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  section {
+    background-color: rgb(252, 252, 252);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  h1, h2, h3 {
+    color: #ff9307;
+  }
+  
+  button {
+    background-color: #001936;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #90989c;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
