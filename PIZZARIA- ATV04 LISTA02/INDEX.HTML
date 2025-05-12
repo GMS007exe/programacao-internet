@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>ATIVIDADE 4 LISTA 02</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1>1- PIZZARIA DO MENDES-Monte seu pedido</h1>
+
+  <p>Digite 4 sabores de pizza:</p>
+  <input type="text" id="sabor1" placeholder="Sabor 1">
+  <input type="text" id="sabor2" placeholder="Sabor 2">
+  <input type="text" id="sabor3" placeholder="Sabor 3">
+  <input type="text" id="sabor4" placeholder="Sabor 4">
+
+  <p>Quantos refrigerantes deseja?</p>
+  <input type="number" id="refri" placeholder="Ex: 2" min="0">
+
+  <button onclick="calcularPedido()">Finalizar Pedido</button>
+
+  <div class="resultado" id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
